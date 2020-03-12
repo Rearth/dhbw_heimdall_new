@@ -152,6 +152,24 @@ Also, by separating behaviour from data, and using systems that only do one spec
 
 ## Monobehavior architecture
 
-To code the player's defenses, we use the traditional unity gameobject workflow, which involves the use of monobehaviors. They bring a completely different architecture with them.
+To code the player's defenses, we use the traditional unity gameobject workflow, which involves the use of MonoBehaviours. They bring a completely different architecture with them and are the "oldschool" way of programming in Unity.
 
-@Timo
+MonoBehaviours allow the GameObject to implement pre-defined functions to realize things like updating and initializing. The use of MonoBehaviours in our project is the only logical choice, because every Tower has to be initialized and updated.
+
+The implementation of the Defence-System relies heavily on abstraction. This means that, for example, a fire tower is "DefenceObject" but can be specified as an object of the class "TowerFire". This allows us to use the concept of polymorphism to call functions on all kinds of "DefenceObject" and thus makes the code a lot cleaner and easier to expand and mantain.
+
+To visualize this concept, the following UML-Class-Diagramm was generated straight out of our code:
+
+![ClassDiagramm](/uploads/classdiagram6.png "ClassDiagramm")
+
+
+
+## Now it's your turn!
+
+We are always open for criticism and new ideas, so please feel free to write the down below.
+
+To be more specific we have two questions for you:
+
+\- Would you have done the architecture in any other way? If yes, why?
+
+\- What kinds of towers and other buildable objects would you like to see in the finished game?

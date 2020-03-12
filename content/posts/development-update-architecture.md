@@ -31,9 +31,9 @@ However, we were able to find all minions around the impact point of a projectil
 
 ## Defences
 
-Most of the changes to the currently implemented towers, are backend changes which are discussed in the following paragraph.
+Most of the changes to the currently implemented towers are backend changes, which are discussed in the following paragraph.
 
-At the moment we are working on "StaticObjects" like walls and a new kind of tower (laser tower). These two are most likely going to be implemented by the next dev-update we are going to post. But we don't want to keep you waiting for too long so here's a little preview of the laserbeam (of course it'll be animated for the finished tower):
+At the moment we are working on "StaticObjects" like walls and a new kind of tower (laser tower). These two are most likely going to be implemented by the next dev-update we are going to post. But we don't want to keep you waiting for too long, so here's a little preview of the laserbeam (of course it'll be animated for the finished tower):
 
 ![Laser-Beam](/uploads/laserbeam.png "Laser-Beam")
 
@@ -156,11 +156,11 @@ Also, by separating behaviour from data, and using systems that only do one spec
 
 ## Monobehavior architecture
 
-To code the player's defenses, we use the traditional unity gameobject workflow, which involves the use of MonoBehaviours. They bring a completely different architecture with them and are the "oldschool" way of programming in Unity.
+To code the player's defences, we use the traditional unity gameobject workflow, which involves the use of MonoBehaviours. They bring a completely different architecture with them and are the "oldschool" way of programming in Unity.
 
 MonoBehaviours allow the GameObject to implement pre-defined functions to realize things like updating and initializing. The use of MonoBehaviours in our project is the only logical choice, because every Tower has to be initialized and updated.
 
-The implementation of the Defence-System relies heavily on abstraction. This means that, for example, a fire tower is "DefenceObject" but can be specified as an object of the class "TowerFire". This allows us to use the concept of polymorphism to call functions on all kinds of "DefenceObject" and thus makes the code a lot cleaner and easier to expand and mantain.
+The implementation of the Defence-System relies heavily on abstraction. This means that, for example, a fire tower is a "DefenceObject" but can be specified further as an object of the class "TowerFire". This allows us to use the concept of polymorphism to call functions on all kinds of "DefenceObject" and thus makes the code a lot cleaner and easier to expand and mantain.
 
 To visualize this concept, the following UML-Class-Diagramm was generated straight out of our code:
 

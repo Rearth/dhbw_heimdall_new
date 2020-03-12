@@ -7,11 +7,11 @@ category:
   - About Heimdall
 author: 'David Waidner, Timo Sickinger'
 date: 2020-03-05T15:12:23.168Z
-featureImage: /uploads/highlight_blue-1-min.PNG
+featureImage: /uploads/towers_in_combat.jpg
 ---
 In our first sprint, we set up the most important systems of the game, the creation buildings and the spawning of the enemy minion hordes. This is what the game currently looks like:
 
-![](/uploads/towers_in_combat-min.PNG)
+![](/uploads/towers_in_combat.jpg)
 
 ## Creating thousands of minions
 
@@ -39,21 +39,21 @@ The minions are currently being spawned by 3 portals, and once they're spawned i
 
 We also added new models for the portals, added a "portal"-effect to the middle of them, and a bit of fog around it. This really helps to make the portals feel more "mysterious". We are pretty satisfied with the results:
 
-![](/uploads/portals_initial-min.PNG)
+![](/uploads/portals_initial.jpg)
 
 ## Defence-System with Upgrades
 
 It's now possible to build towers to defend the base. With the help of a ShaderGraph the preview of the tower is being highlighted green if the tower can be placed, or red if it can't.
 
-![](/uploads/highlight_green-min.PNG)
+![](/uploads/highlight_green.jpg)
 
 Additionally the placed towers are upgradable if they are selected and the player has enough coins to purchase the next upgrade. To visualize the currently selected tower the ShaderGraph for highlighting is applied with a blue color.
 
-![](/uploads/highlight_blue-1-min.PNG)
+![](/uploads/highlight_blue-1.jpg)
 
 To start off we implemented two types of towers (cannon and fire) with two upgrades and a different model each.
 
-![](/uploads/fire_lvl1.PNG)
+![](/uploads/cannon_lvl1-1.jpg)
 
 ## Next steps:
 

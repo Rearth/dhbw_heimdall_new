@@ -11,7 +11,7 @@ featureImage: /uploads/highlight_green.PNG
 ---
 In our first sprint, we set up the most important systems of the game, the creation buildings and the spawning of the enemy minion hordes. This is what the game currently looks like:
 
-![](/images/towers_in_combat.PNG)
+![](/uploads/highlight_blue-1.PNG)
 
 ## Creating thousands of minions
 

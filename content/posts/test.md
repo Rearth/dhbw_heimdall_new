@@ -7,7 +7,7 @@ category:
   - About Heimdall
 author: 'David Waidner, Timo Sickinger'
 date: 2020-03-05T15:12:23.168Z
-featureImage: /uploads/a1790286667_10.jpg
+featureImage: /uploads/towers_in_combat.jpg
 ---
 In our first sprint, we set up the most important systems of the game, the creation buildings and the spawning of the enemy minion hordes. This is what the game currently looks like:
 

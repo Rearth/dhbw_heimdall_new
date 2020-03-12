@@ -17,8 +17,6 @@ The Project is being worked on by two people. Is is a single-player-game made wi
 
 The goal of the game is to build a castle with fortifications and units to defend it. The castle will be under attack by thousands of evil minions, brought into the world by unknown, nefarious forces.
 
-![](/uploads/nikola-damjanov-nordeus-unite-demo-009.jpg)
-
 The goal of the player is to build as many defenses as possible, thus holding the castle for a longer time. There is only one 'level' in the game, which can be started multiple times, each time with the goal of surviving for a longer time (basically a score). The highscore will get saved.
 
 # Technology

@@ -6,7 +6,13 @@ const build = {
     config.module.rules.push({
       test: /\.md$/,
       use: [{ loader: 'gray-matter-loader' }]
-    })
+    },  {
+            test: /\.(ttf|eot|svg|otf|gif)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+            include: SRC,
+            use: [{
+                loader: 'file-loader'
+            }]
+        })
     config.resolve.alias.vue = 'vue/dist/vue.common'
   }
 }

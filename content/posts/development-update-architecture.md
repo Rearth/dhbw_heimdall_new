@@ -29,9 +29,15 @@ The biggest change this week is that minions now interact more with the other ob
 
 However, we were able to find all minions around the impact point of a projectile, and now they will immediatly die and display a small particle effect upon death. We were also experimenting with bodies that fly away form the impact. We achieved that by giving the minions a "rigidbody" component and removing the navagent component. However that once provided us with mediocre resusts, so we decided to just make the minions directly disappear (for now)
 
-## Defenses
+## Defences
 
-@Timo!
+Most of the changes to the currently implemented towers, are backend changes which are discussed in the following paragraph.
+
+At the moment we are working on "StaticObjects" like walls and a new kind of tower (laser tower). These two are most likely going to be implemented by the next dev-update we are going to post. But we don't want to keep you waiting for too long so here's a little preview of the laserbeam (of course it'll be animated for the finished tower):
+
+![]()
+
+
 
 # Architecture
 

@@ -35,9 +35,7 @@ Most of the changes to the currently implemented towers, are backend changes whi
 
 At the moment we are working on "StaticObjects" like walls and a new kind of tower (laser tower). These two are most likely going to be implemented by the next dev-update we are going to post. But we don't want to keep you waiting for too long so here's a little preview of the laserbeam (of course it'll be animated for the finished tower):
 
-![]()
-
-
+![Laser-Beam](/uploads/laserbeam.png "Laser-Beam")
 
 # Architecture
 
@@ -167,8 +165,6 @@ The implementation of the Defence-System relies heavily on abstraction. This mea
 To visualize this concept, the following UML-Class-Diagramm was generated straight out of our code:
 
 ![ClassDiagramm](/uploads/classdiagram6.png "ClassDiagramm")
-
-
 
 ## Now it's your turn!
 

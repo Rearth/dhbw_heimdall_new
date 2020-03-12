@@ -9,15 +9,17 @@ author: 'David Waidner, Timo Sickinger'
 date: 2020-03-12T20:13:39.136Z
 featureImage: /uploads/portals_reworked.jpg
 ---
-A lot has changed since our last dev-blog entry. We made big changes to the environment and further improved out code-base.
+A lot has changed since our last dev-blog entry. We made big changes to the environment and further improved our codebase.
 
-![](/uploads/towers_combat_reworked.jpg)
+![](/uploads/terrain_afar.jpg)
 
 ## Environment
 
 The most appearant change is the terrain and the environment of the game itself. We made the terrain smaller, added trees, rocks and other small vegetation features. We also added new models for the bridges, with some lighting in the cliff underneath it. 
 
 The portals have also been reworked, they now have small stone plates underneath, and a set of torches infront. The fog now also spans over one whole half of the map, and stops just before the cliffs.
+
+![](/uploads/portal_close_up.jpg)
 
 ## Game Mechanics
 

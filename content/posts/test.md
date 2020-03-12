@@ -7,11 +7,9 @@ category:
   - About Heimdall
 author: 'David Waidner, Timo Sickinger'
 date: 2020-03-05T15:12:23.168Z
-featureImage: /uploads/highlight_green.PNG
+featureImage: /uploads/mailchimp.jpg
 ---
 In our first sprint, we set up the most important systems of the game, the creation buildings and the spawning of the enemy minion hordes. This is what the game currently looks like:
-
-![](/uploads/highlight_blue-1.PNG)
 
 ## Creating thousands of minions
 
@@ -27,37 +25,23 @@ Since we want to have thousands of enemy minions at a time, they present the mos
 
 The navigation system of the DOTS is sadly still in an early stage. We can do pathfinding for each minion individually without a huge performance loss, but the DOTS solution does not allow local avoidance of the minions yet. To still enable this in our project, we wrote our orw, primitive local avoidance. This is not as good as as any of the other solutions that are on the market right now, but it is "good enough" for out case, and it works with DOTS. At the begin it did produce some weird results:
 
-![](/images/ezgif.com-crop (2).gif)
-
 However, we've made further improvement to the local avoidance system. It's still far from perfect, ut since there's so many minions, the player will barely notice it if there are 2 minions too close to each other.
 
 ## New Minion Visuals
 
 The minions are currently being spawned by 3 portals, and once they're spawned into the world they will move towards a predefined position in the world. We also updated the model of the Skeleton, since we do not plan on having any real mesh animations on the minions, which the model was initially made for. We removed the legs, made the bottom of the torso bigger, and updated the texture to make it fade towards the bottom. We also added a glow to the eyes, and made the whole model a bit "bulkier" to make the map not look that empty. To make them look alive, we are modifying their Z-Position using a sin-wave, so they really look like they're floating. The result can be seen here:
 
-![](/images/ezgif.com-crop (1).gif)
-
 We also added new models for the portals, added a "portal"-effect to the middle of them, and a bit of fog around it. This really helps to make the portals feel more "mysterious". We are pretty satisfied with the results:
-
-![](/images/portals_initial.PNG)
 
 ## Defence-System with Upgrades
 
 It's now possible to build towers to defend the base. With the help of a ShaderGraph the preview of the tower is being highlighted green if the tower can be placed, or red if it can't.
 
-![](/images/highlight_green.PNG "Green-Highlight")
-
-![](/images/highlight_red.PNG)
-
 Additionally the placed towers are upgradable if they are selected and the player has enough coins to purchase the next upgrade. To visualize the currently selected tower the ShaderGraph for highlighting is applied with a blue color.
 
-![](/images/highlight_blue-1.PNG)
 
 To start off we implemented two types of towers (cannon and fire) with two upgrades and a different model each.
 
-![](/images/cannon_lvl1-1.PNG)![](/images/cannon_lvl2-1.PNG)
-
-![](/images/fire_lvl1.PNG)![](/images/fire_lvl2.PNG)
 
 ## Next steps:
 

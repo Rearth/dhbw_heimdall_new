@@ -1,5 +1,5 @@
 ---
-name: About Awake
+name: About Heimdall
 image: /logo.svg
 ---
-All about the Awake Nuxt Template
+All about the our small Website

@@ -8,7 +8,6 @@ const build = {
       use: [{ loader: 'gray-matter-loader' }]
     },  {
             test: /\.(ttf|eot|svg|otf|gif)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-            include: SRC,
             use: [{
                 loader: 'file-loader'
             }]

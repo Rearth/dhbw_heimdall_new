@@ -47,4 +47,6 @@ Previously, minions were already able to walk into enemy structures and die upon
 
 We also were able to build a working version of the game, so you can finally get your very own impressions of the game. You can download it here. Please note that there is no loading screen or main menu yet, you'll start directly into the game.
 
+[Get it here!](https://drive.google.com/file/d/1eczVH7cALpacfkjxVLj7UMX9Knpo5Tg2/view?usp=sharing)
+
 What do you think of the changes we made and the current state of the game so far? Do you have any more ideas on what tools we could give the player to be able to defend himself? Leave your ideas down below in the comment section!

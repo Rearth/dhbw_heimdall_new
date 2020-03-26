@@ -33,7 +33,9 @@ We also started with lightmaps, which allow us to precompute the shadows and lig
 
 ## Tower Effects
 
+To improve the way our towers and defences are being built, we made a new Shader to visualize the process of building. The shader uses socalled "SimpleNoise" to fade the building into existence. Sadly the shader and the respective material don't work on defences at the moment. But here is a short preview to show you how it is going to look:
 
+![](/uploads/dissolvemat.jpg)
 
 ## Other Improvements
 

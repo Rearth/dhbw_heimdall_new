@@ -40,3 +40,5 @@ To improve the way our towers and defences are being built, we made a new Shader
 ## Other Improvements
 
 Our Unity Editor started to act really sluggish, and it took multiple minutes to even start up the editor. We fixed that cleaning up our assets using [this asset cleaner](https://github.com/unity-cn/Tool-UnityAssetCleaner). By applying the asset cleaner, we were able to remove ~650mb of files in our project, making the editor run a lot more smooth again.
+
+You can get your hands on the current version using [this link](https://developer.cloud.unity3d.com/share/share.html?shareId=-yQjLOKIiS).

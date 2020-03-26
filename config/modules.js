@@ -44,7 +44,7 @@ export const modulesSettings = {
     max: 1800, // maximum image width generated
     steps: 4, // five sizes per image will be generated
     placeholder: false, // no placeholder will be generated
-    quality: 65, // images are compressed with medium quality
+    quality: 100, // images are compressed with medium quality
     adapter: require('responsive-loader/sharp'),
     disable: process.env.NODE_ENV === 'development'
   },

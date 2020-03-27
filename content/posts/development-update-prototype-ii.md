@@ -48,3 +48,5 @@ You can get your hands on the current version using [this link](https://develope
 We are still thinking about the storyline for the project. What kind of story could be behind this project? What could be reasons for the castle being attacked by those minions?
 
 Also, what kind of economy could fit into the project?
+
+Do you have an idea of how we can get rid of the texture-stretching, that is happening on the terrain, without writing a new Terrain-Shader?

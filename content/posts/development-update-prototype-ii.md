@@ -42,3 +42,9 @@ To improve the way our towers and defences are being built, we made a new Shader
 Our Unity Editor started to act really sluggish, and it took multiple minutes to even start up the editor. We fixed that cleaning up our assets using [this asset cleaner](https://github.com/unity-cn/Tool-UnityAssetCleaner). By applying the asset cleaner, we were able to remove ~650mb of files in our project, making the editor run a lot more smooth again.
 
 You can get your hands on the current version using [this link](https://developer.cloud.unity3d.com/share/share.html?shareId=-yQjLOKIiS).
+
+## Questions for you
+
+We are still thinking about the storyline for the project. What kind of story could be behind this project? What could be reasons for the castle being attacked by those minions?
+
+Also, what kind of economy could fit into the project?

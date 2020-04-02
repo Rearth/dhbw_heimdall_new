@@ -42,9 +42,9 @@ Archers will shoot arrows towards the minion armies, and are very useful for pic
 
 To allow the players to use large amounts of archers (to achieve huge movielike arrow storms) we implemented the arrows of the archers using the ecs system. Each arrow is it's own entity, and the flight path for the entity will be calculated when launching it, and is based on elliptical curves. Once the arrows reach a certain height (towards the end of their flight) we use batched raycasts to detect collisions with enemy minions, and apply damage to the first minion the ray finds. If no minion is found, the arrow will just get stuck in the ground, where it will stay for a few seconds after being removed from the game.
 
-![](/uploads/ezgif.com-video-to-gif.gif)
+![](/uploads/archers_on_wall.jpg)
 
-You can also download the current version of the game using this link. Please give it a try and leave us some feedback in the comments.
+You can also download the current version of the game [using this link](https://developer.cloud.unity3d.com/share/share.html?shareId=W19pwQr3iB). Please give it a try and leave us some feedback in the comments.
 
 ## Question-Time
 
